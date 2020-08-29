@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tissot.mk
+    $(LOCAL_DIR)/potato_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    potato_tissot-userdebug \
+    potato_tissot-user
