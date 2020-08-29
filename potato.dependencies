@@ -1,9 +1,9 @@
 [
  {
    "remote": "github",
-   "repository": "PixelExperience-Devices/device_xiaomi_msm8953-common",
+   "repository": "keikei14/device_xiaomi_msm8953-common",
    "target_path": "device/xiaomi/msm8953-common",
-   "branch": "ten"
+   "branch": "croquette-release"
  },
  {
    "remote": "pixel-devices-bitbucket",
@@ -17,9 +17,9 @@
    "branch": "ten"
  },
  {
-   "remote": "github",
-   "repository": "PixelExperience-Devices/kernel_xiaomi_tissot",
+   "remote": "lineage",
+   "repository": "LineageOS/kernel_xiaomi_msm8953",
    "target_path": "kernel/xiaomi/msm8953",
-   "branch": "ten"
+   "branch": "lineage-17.1"
   }
 ]
