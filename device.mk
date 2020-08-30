@@ -109,4 +109,6 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
 
-
+#QCOM
+PRODUCT_BOARD_PLATFORM := msm8996
+PRODUCT_USES_QCOM_HARDWARE := true
